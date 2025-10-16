@@ -1,50 +1,128 @@
-<!DOCTYPE html> <!--Este es un comentario-->
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Profesional | Jorge Navarrete</title>
-    <link rel="stylesheet" href="css/main.css"
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <title> Portafolio Profesional | Jorge Navarrete</title>
     <link>
-    <header><!--Encabezado De La Pagina Web-->
+    <header><!--Encabezado
+        De La Pagina Web-->
         <h1>Portafolio Profesional</h1>
         <h4>Jorge Navarrete Tzuc</h4>
+        <aside>
+            <a href="" class="redes"></a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks"
+                viewBox="0 0 16 16">
+                <path
+                    d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v10.566l3.723-2.482a.5.5 0 0 1 .554 0L11 14.566V4a1 1 0 0 0-1-1z" />
+                <path
+                    d="M4.268 1H12a1 1 0 0 1 1 1v11.768l.223.148A.5.5 0 0 0 14 13.5V2a2 2 0 0 0-2-2H6a2 2 0 0 0-1.732 1" />
+            </svg>
+            <a>
+        </aside>
     </header>
-    <!--Menu de navegacion-->
+    <!--Menu
+    de navegacion-->
     <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Sobre mi</a>
-        <a href="#">Mi experiencia</a>
-        <a href="#">Contactame</a>
+        <ul>
+            <li><a href="#incio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
     </nav>
-    <!--Contenido Principal-->
+
+    <!--Contenido
+    Principal-->
     <main>
         <section>
             <h2>Bienvenido a mi Portafolio Profesional</h2>
-            <p>Mi nombre es <mark>Jorge Navarrete Tzuc</mark>,<strong>en tecnologia de la informacion<strong>Lorem Ipsum
-                        es simp y archivos de texto. Lorem Ipsum ha sido
-                        el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T.
-                        persona
-                        que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera
-                        que logró
-                        hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como
-                        texto de
-                        relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado
-                        en los
-                        60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más
-                        recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye
-                        versiones
-                        de Lorem Ipsum.</p>
-            <p>Mi <small>frase favorita<small>es:<em>"Primero resuelvo, despues escribo codigo"<em></p>
-            <img src="images/Foto-Perfil.jpg" alt="Foto de perfil" id="foto de perfil" />
+            <p>Mi nombre es <mark>Jorge Navarrete Tzuc</mark><strong>Experto en</strong> tecnologia de la
+                    informacion Lorem Ipsum es simp y archivos de texto. Lorem Ipsum ha sido el
+                texto de relleno estándar de las industrias desde el año 1500, cuando un impresor
+                (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de
+                textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No
+                sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en
+                documentos electrónicos, quedando esencialmente igual al original. Fue popularizado
+                en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de
+                Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus
+                PageMaker, el cual incluye versiones de Lorem Ipsum. mi frase favorita es: "primero
+                resuelvo, <em> despues escribo codigo"</em></p>
+            <img src="Images/Foto-Perfil.jpg" alt="Foto de Perfil" id="foto" />
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos tecnologicos</h2>
+            <div id="lista-proyectos">
+                <article class="proyecto">
+                    <h3>plataforma de seguimiento de rutas agricolas</h3>
+                    <time datetime="2025-47">Julio 2025</time>
+                    <img src="Images/Silueta Skate.jpg" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quis perspiciatis quibusdam expedita
+                        eius nesciunt laudantium voluptatem maiores explicabo prasentium</p>
+                </article>
+                <article class="proyecto">
+                    <h3>Aplicaciones de gestion inventarial</h3>
+                    <time datetime="2024-03">Agosto 2024</time>
+                    <img src="Images/Silueta Skate.jpg" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quis perspiciatis quibusdam expedita
+                        eius nesciunt laudantium voluptatem maiores explicabo prasentium</p>
+                </article>
+                <article class="proyecto">
+                    <h3>Sitio web comercio multielectronico</h3>
+                    <time datetime="2023-11">Noviembre 2023</time>
+                    <img src="Images/Silueta Skate.jpg" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quis perspiciatis quibusdam expedita
+                        eius nesciunt laudantium voluptatem maiores explicabo prasentium</p>
+                </article>
+            </div>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades y competencias</h2>
+            <h3>Habilidades Tecnologicas</h3>
+            <ul class="lista-tecnologias">
+                <li>JavaScript basico</li>
+                <li>CSharp basico</li>
+                <li>HTML</li>
+                <li>SQL</li>
+            </ul>
+            <h3>Nivel de dominio</h3>
+            <ul>
+                <div>
+                    <label>HTML5 </label>
+                    <progress max="100" value="80"> 80% </progress>
+                </div>
+                <div>
+                    <label>CSS</label>
+                    <progress max="100" value="50"> 50%</progress>
+                </div>
+                <div>
+                    <label>JavaScript</label>
+                    <progress max="100" value="20"> 20%</progress>
+                </div>
+            </ul>
+        
+        </section id="contacto">
+        <h2>Contactame</h2>
+        <p>platicame de tu proyecto, llena los datos y te contactare.</p>
+        <form>
+            <div class="campos">
+                <label> Nombre completo</label>
+                <input type="text" name="nombre" placeholder="Nombre completo"/>
+                <button>Enviar</button>
+            </div>
+        </form>
+        <section>
+
         </section>
     </main>
     <footer>
-        <p>&copy; 2025 Todos los derechos reservados- Jorge Navarrete Tzuc</p>
-    </footer>
-</body>
+        <p>Todos los derechos reservados -Jorge Navarrete Tzuc &copy;2025 </p>
+    </footer>    
+</body>    
